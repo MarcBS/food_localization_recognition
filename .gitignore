@@ -1,0 +1,5 @@
+*.txt
+Models/*
+Datasets/*
+results/*
+tmp/*
