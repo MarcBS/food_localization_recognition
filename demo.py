@@ -79,7 +79,7 @@ def load_parameters():
     # path to a .txt file containing a list of images to process
     imgs_list = ''
 
-    dataset_ref_path = '/media/HDD_2TB/marc/FoodDetection_keras/Datasets/Dataset_FoodVsNoFood.pkl'
+    dataset_ref_path = 'Datasets/Dataset_FoodVsNoFood.pkl'
 
     ################# Localization parameters
     # best params for combined datasets UECFood256 and EgocentricFood
@@ -88,14 +88,14 @@ def load_parameters():
     localization_params_e = 0.2 # expand the bounding boxes by a certain percentage (aka 'e' in reference paper)
     n_top_convs = 0 # number of extra top-scoring convolutional maps used for localization (default=0, to use only main FAM)
     # path to the food-related objects localization model
-    model_loc_path = '/media/HDD_2TB/CNN_MODELS/GoogleNet_FoodVsNoFood_GAP'
+    model_loc_path = 'Final_Models/recognition/GoogleNet_FoodVsNoFood_GAP'
     # If True then the it will try to load the CAMs from the results folder for generating new BBox proposals
     reuse_CAM = False
 
     ################# Recognition parameters
     apply_recognition = True
     # Food101
-    model_rec_path = '/media/HDD_2TB/CNN_MODELS/GoogleNet_UECFood256/finetuning_Food101_NoFood'
+    model_rec_path = 'Final_Models/localization/GoogleNet_UECFood256/finetuning_Food101_NoFood'
     model_rec_iter = 27900
     # Egocentric Food
     #model_rec_path = '/media/HDD_2TB/CNN_MODELS/GoogleNet_EgocentricFood/finetuning_Food101_NoFood'
