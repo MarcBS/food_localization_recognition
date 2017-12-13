@@ -1,6 +1,4 @@
 *.txt
 Models/*
-Final_Models/*
-Datasets/*
 results/*
 tmp/*

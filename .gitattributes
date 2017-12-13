@@ -1,4 +1,2 @@
-Final_Models/** filter=lfs diff=lfs merge=lfs -text
-Datasets/** filter=lfs diff=lfs merge=lfs -text
 Datasets/**/* filter=lfs diff=lfs merge=lfs -text
 Final_Models/**/* filter=lfs diff=lfs merge=lfs -text
