@@ -21,3 +21,7 @@ Pattern Recognition (ICPR), 2016 23rd International Conference on. IEEE, 2016.
 ```
 python demo.py param_name1=param_value1 param_name2=param_value2 ...
 ```
+
+## EgocentricFood Dataset
+
+The EgocentricFood Dataset used for the experimentation can be found [here](http://www.ub.edu/cvub/egocentricfood/).
